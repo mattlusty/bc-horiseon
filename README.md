@@ -38,6 +38,10 @@ N/A
 - (... because the \<h3\> headings in \<aside\> have skipped the \<h2\> - ie this \<h3\> has no \<h2\> in its ancestor hierarchy)
 - Or is it acceptable to skip to \<h3\> because \<aside\> is less important than \<main\>?
 
+4. Does it go against semantic philosophy to use bootstrap-like classes to add styles to HTML elements...
+
+- ie the CSS .float-left class
+
 ## Git commit history
 
 Please could you provide any feedback on how I have handled my git flow, commit patterns, commit messages, pulling and pushing to and from main etc? Thanks :)
