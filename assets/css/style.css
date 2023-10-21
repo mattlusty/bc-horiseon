@@ -21,6 +21,8 @@ p {
 
 /* Abstract Class Styles can be applied to HTML elements as required */
 
+/* Do these bootstrap-like classes go against semantic design? Or are they okay? */
+
 .float-left {
   float: left;
   margin-right: 25px;
