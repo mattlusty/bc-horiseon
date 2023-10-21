@@ -118,11 +118,13 @@ aside {
   color: #ffffff;
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+.benefit-lead h2,
+.benefit-brand h2,
+.benefit-cost h2 {
   margin-bottom: 10px;
   text-align: center;
+  /* added font-size equivilent to h3 - because was originally using h3 element */
+  font-size: 1.17em;
 }
 
 .benefit-lead img,
