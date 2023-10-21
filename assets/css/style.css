@@ -1,3 +1,5 @@
+/* Global (page wide) Styles */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,6 +9,29 @@
 body {
   background-color: #d9dcd6;
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Abstract Class Styles can be applied to HTML elements as required */
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* Styles for top Header with nested Nav */
 
 header {
   padding: 20px;
@@ -42,14 +67,7 @@ header nav ul li {
   margin-left: 25px;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-p {
-  font-size: 16px;
-}
+/* Background image */
 
 .hero {
   height: 800px;
@@ -60,15 +78,7 @@ p {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
+/* Main section styles */
 
 main {
   width: 75%;
@@ -76,9 +86,8 @@ main {
   margin-left: 20px;
 }
 
-#search-engine-optimization,
-#online-reputation-management,
-#social-media-marketing {
+/* All main articles share same style - no need to target multiple different CSS id selectors */
+main article {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -87,18 +96,18 @@ main {
   color: #ffffff;
 }
 
-#search-engine-optimization img,
-#online-reputation-management img,
-#social-media-marketing img {
+/* All img within main share same style - no need to target multiple different CSS id selectors */
+main img {
   max-height: 200px;
 }
 
-#search-engine-optimization h2,
-#online-reputation-management h2,
-#social-media-marketing h2 {
+/* All h2 within main share same style - no need to target multiple different CSS id selectors */
+main h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
+
+/* Aside section styles */
 
 aside {
   margin-right: 20px;
@@ -111,29 +120,28 @@ aside {
   background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+/* All aside sections share same style - no need to target multiple different CSS id selectors */
+aside section {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-lead h2,
-.benefit-brand h2,
-.benefit-cost h2 {
+/* All h2 within aside share same style - no need to target multiple different CSS id selectors */
+aside h2 {
   margin-bottom: 10px;
   text-align: center;
-  /* added font-size equivilent to h3 - because was originally using h3 element */
+  /* Added font-size equivilent to h3 - because was originally using h3 element */
   font-size: 1.17em;
 }
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+/* All img within <aside> share same style - no need to target multiple different CSS id selectors */
+aside img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
+
+/* Footer styles */
 
 footer {
   padding: 30px;
