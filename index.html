@@ -7,6 +7,7 @@
   </head>
 
   <body>
+    <!-- header includes the Company name (<h1>) and the page links within the <nav>  -->
     <header>
       <h1>Hori<span class="seo">seo</span>n</h1>
       <nav>
@@ -25,6 +26,7 @@
     </header>
     <!-- div.hero contains css background image used for decoration (alt text not required) -->
     <div class="hero"></div>
+    <!-- the <main> section includes the three <article> subsections -->
     <main>
       <article id="search-engine-optimization">
         <img
@@ -67,9 +69,19 @@
         </p>
       </article>
     </main>
+    <!-- 
+    The <aside> section for the right side sections includes Horiseons benefits in the three <section> subsections 
+      
+    QUESTION TO MARKER: Is there any reason to use <main> vs <aside> and within those <section> vs <article>?
+    -->
     <aside class="benefits">
       <section class="benefit-lead">
-        <h3>Lead Generation</h3>
+        <!-- 
+        QUESTION TO MARKER: Is it reasonable to use <h3> here as <aside> is less important than <main> section OR should it be <h2> because the h tag above it (in its heirarchy) is <h1> 
+        
+        UPDATE: As indicated in the assignment README "Heading attributes [MUST] fall in sequential order" so I replaced <h3> with <h2> (below)
+        -->
+        <h2>Lead Generation</h2>
         <img src="./assets/images/lead-generation.png" alt="" />
         <p>
           Inbound strategies for lead generation require less work for your business, bringing
@@ -77,7 +89,7 @@
         </p>
       </section>
       <section class="benefit-brand">
-        <h3>Brand Awareness</h3>
+        <h2>Brand Awareness</h2>
         <img src="./assets/images/brand-awareness.png" alt="" />
         <p>
           Users find your business through paid and organic searches, increasing the search ranking
@@ -85,7 +97,7 @@
         </p>
       </section>
       <section class="benefit-cost">
-        <h3>Cost Management</h3>
+        <h2>Cost Management</h2>
         <img src="./assets/images/cost-management.png" alt="" />
         <p>
           As the search ranking for your business increases, your advertising costs decrease, and
