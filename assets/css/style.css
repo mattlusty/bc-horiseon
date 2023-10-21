@@ -1,3 +1,5 @@
+/* Global (page wide) Styles */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,6 +9,27 @@
 body {
   background-color: #d9dcd6;
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* Styles for top Header with nested Nav */
 
 header {
   padding: 20px;
@@ -42,14 +65,7 @@ header nav ul li {
   margin-left: 25px;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-p {
-  font-size: 16px;
-}
+/* Background image */
 
 .hero {
   height: 800px;
@@ -60,15 +76,7 @@ p {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
+/* Main section styles */
 
 main {
   width: 75%;
@@ -100,6 +108,8 @@ main {
   font-size: 36px;
 }
 
+/* Aside section styles */
+
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -123,7 +133,7 @@ aside {
 .benefit-cost h2 {
   margin-bottom: 10px;
   text-align: center;
-  /* added font-size equivilent to h3 - because was originally using h3 element */
+  /* Added font-size equivilent to h3 - because was originally using h3 element */
   font-size: 1.17em;
 }
 
@@ -134,6 +144,8 @@ aside {
   margin: 10px auto;
   max-width: 150px;
 }
+
+/* Footer styles */
 
 footer {
   padding: 30px;
