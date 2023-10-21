@@ -19,4 +19,4 @@ N/A
 ## Notes
 
 - I added alt attr text to the three main section images.
-- I did not believe it was neccessary however to add descriptions to the large CSS image at the top of the page, nor the icon graphics on the right side of th page because they are more decorative than functional.
+- I did not believe it was neccessary however to add alt text descriptions to the large CSS image at the top of the page, nor the icon graphics on the right side of th page because they are more decorative than functional.
