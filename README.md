@@ -25,7 +25,7 @@ N/A
 
 1. I put .content into a \<main\> and .benefits into an \<aside\>
 
-- Is this correct or should they be equal sections?
+- Is this correct or should they be equal sections and thus the same semantic element?
 
 2. Within the \<main\> ... for sub-sections I used \<section\>s and within the \<aside\> I used \<article\>s
 
@@ -37,3 +37,9 @@ N/A
 - As these headings are on the same nested level, should they both be \<h2\>?
 - (... because the \<h3\> headings in \<aside\> have skipped the \<h2\> - ie this \<h3\> has no \<h2\> in its ancestor hierarchy)
 - Or is it acceptable to skip to \<h3\> because \<aside\> is less important than \<main\>?
+
+## Git commit history
+
+Please could you provide any feedback on how I have handled my git flow, commit patterns, commit messages, pulling and pushing to and from main etc? Thanks :)
+
+![My git commit history](assets/images/git-log.png)
