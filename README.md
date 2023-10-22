@@ -40,7 +40,7 @@ Jump Links (self anchors)
 2. Within the \<main\> ... for sub-sections I used \<section\>s and within the \<aside\> I used \<article\>s
 
 - Is this okay and ...
-- When should I use \<section\> and when should I use \<article\>?
+- When should I use \<section\> and when should I use \<article\> as the W3C descriptions are quite subjective are they not?
 
 3. The next level headings within the \<section\> are \<h2\> and for \<aside\> they are \<h3\>
 
