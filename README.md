@@ -2,11 +2,19 @@
 
 ## Description
 
-Horiseon company website show casing its expertise in online marketing, including SEO optimisation, brand reputation, and social media marketing.
+As Horiseon...
+
+- Our company needs to make visible our services and attract clients who need our services.
+- We built this website to make visible and advertise our services and the benefits they provide.
+- It solves the problem of clients from around the world not being aware of our services.
+- We learnt that to optimise our website's visibility to search engines we must ensure that the HTML structure is semantic and provides meaning and purpose to search engines.
+- Lessons such as the webpage needs a meaningful, descriptive \<title\>. images require src and alt attributes. Headings \<h?\> should be used in sequential order.
 
 ## Usage
 
-N/A
+Jump Links
+
+- To find relevant articles on the page quickly, users can click the navigation items in the header nav, and these links will jump the user to desired location on the page!
 
 ## License
 
@@ -14,7 +22,9 @@ N/A
 
 ## Features
 
-- Self anchor Jump Links in navigation - allow users to rapidly move to selected content sections in current page
+Jump Links (self anchors)
+
+- In nav the items are linked to ids of elements within the page, allowing users to rapidly move to selected content sections.
 
 ## Notes
 
