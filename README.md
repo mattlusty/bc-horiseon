@@ -12,7 +12,9 @@ As Horiseon...
 
 ## Usage
 
-N/A
+Jump Links
+
+- To find relevant articles on the page quickly, users can click the navigation items in the header nav, and these links will jump the user to desired location on the page!
 
 ## License
 
@@ -20,7 +22,9 @@ N/A
 
 ## Features
 
-- Self anchor Jump Links in navigation - allow users to rapidly move to selected content sections in current page
+Jump Links (self anchors)
+
+- In nav the items are linked to ids of elements within the page, allowing users to rapidly move to selected content sections.
 
 ## Notes
 
