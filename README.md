@@ -2,7 +2,13 @@
 
 ## Description
 
-Horiseon company website show casing its expertise in online marketing, including SEO optimisation, brand reputation, and social media marketing.
+As Horiseon...
+
+- Our company needs to make visible our services and attract clients who need our services.
+- We built this website to make visible and advertise our services and the benefits they provide.
+- It solves the problem of clients from around the world not being aware of our services.
+- We learnt that to optimise our website's visibility to search engines we must ensure that the HTML structure is semantic and provides meaning and purpose to search engines.
+- Lessons such as the webpage needs a meaningful, descriptive \<title\>. images require src and alt attributes. Headings \<h?\> should be used in sequential order.
 
 ## Usage
 
