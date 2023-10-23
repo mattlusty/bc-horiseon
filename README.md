@@ -42,7 +42,7 @@ I added alt attr text to the three main section images.
 
 - However, I did not believe it was neccessary however to add alt text descriptions to the large CSS image at the top of the page, nor the icon graphics on the right side of th page because they are more decorative than functional.
 
-## Feedback from reviewer
+## Feedback Request from Reviewer
 
 I have made a GitHub Issue for some queries.
 
