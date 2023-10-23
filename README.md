@@ -31,26 +31,43 @@ Jump Links (self anchors)
 - I added alt attr text to the three main section images.
 - I did not believe it was neccessary however to add alt text descriptions to the large CSS image at the top of the page, nor the icon graphics on the right side of th page because they are more decorative than functional.
 
-## Unsure (Questions)
+## Feedback from reviewer
 
-1. I put .content into a \<main\> and .benefits into an \<aside\>
+I have made a GitHub Issue for some queries.
 
-- Is this correct or should they be equal sections and thus the same semantic element?
+Please could the marker provide feedback to these?
 
-2. Within the \<main\> ... for sub-sections I used \<section\>s and within the \<aside\> I used \<article\>s
+I have read [W3C HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp) and it seems theres a lot of subjectivity to different use cases.
+
+1. Issue: Main vs Aside?
+
+- I put .content into a \<main\> and .benefits into an \<aside\>
+
+- Is this ok or should they be equal sections and thus the same semantic element?
+
+2. Issue: Section vs Article?
+
+- Within the \<main\> ... for sub-sections I used \<section\>s and within the \<aside\> I used \<article\>s
 
 - Is this okay and ...
-- When should I use \<section\> and when should I use \<article\> as the W3C descriptions are quite subjective are they not?
 
-3. The next level headings within the \<section\> are \<h2\> and for \<aside\> they are \<h3\>
+- When should I use \<section\> and when should I use \<article\>?
+
+3. Issue: Skipping \<h2\> straight to using \<h3\>
+
+- The next level headings within the \<section\> are \<h2\> and for \<aside\> they were \<h3\>
 
 - As these headings are on the same nested level, should they both be \<h2\>?
+
 - (... because the \<h3\> headings in \<aside\> have skipped the \<h2\> - ie this \<h3\> has no \<h2\> in its ancestor hierarchy)
-- Or is it acceptable to skip to \<h3\> because \<aside\> is less important than \<main\>?
 
-4. Does it go against semantic philosophy to use bootstrap-like classes to add styles to HTML elements...
+- Or is it acceptable to skip to straight to \<h3\> because \<aside\> is less important than \<main\>?
 
-- ie the CSS .float-left class
+4. Issue: Bootstrap-like classes for CSS Styles
+
+- Does it go against semantic philosophy to use bootstrap-like classes to add styles to HTML elements...
+
+- ie the CSS .float-left class?
 
 ## Git commit history
 
